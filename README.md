@@ -62,21 +62,6 @@ Focus Bubble is a web app designed to help users track their study focus and dis
 
 ---
 
-## License
-
-This project is open source and free to use for educational and personal purposes.
-
----
-
-## Author
-
-*Your Name or Team Name*  
-Contact info (optional)
-
----
-
-Feel free to reach out if you want help extending this project or have feedback!
-
 
 <img width="1470" alt="Screenshot 2025-05-30 at 3 30 50 PM" src="https://github.com/user-attachments/assets/32806e7d-58a8-4f6b-84a7-e4798ff472ff" />
 <img width="1470" alt="Screenshot 2025-05-30 at 3 31 04 PM" src="https://github.com/user-attachments/assets/c16ae120-5c48-43fa-b54d-10c060c5db44" />
