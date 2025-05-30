@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Focus Bubble - Distraction Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🎈 Focus Bubble</h1>
+    <p>Track your study focus and distractions in real time.</p>
+  </header>
+
+  <main>
+    <section class="tracker-card">
+      <h2>Study Session</h2>
+      <div class="timer-display" id="studyTimer">00:00:00</div>
+      <div class="controls">
+        <button id="startBtn">▶ Start</button>
+        <button id="pauseBtn">⏸ Pause</button>
+        <button id="resetBtn">🔄 Reset</button>
+      </div>
+    </section>
+
+    <div class="audio-controls">
+        <button id="muteToggleBtn">🔇 Mute</button>
+      </div>
+
+    <section class="stats-card">
+      <h2>Distraction Stats</h2>
+      <p>Tab Switches: <span id="distractionCount">0</span></p>
+      <p>Focus Lost Time: <span id="blurTime">00:00</span></p>
+    </section>
+
+    <section class="graph-card">
+      <h2>Focus History</h2>
+      <canvas id="focusChart" width="300" height="200"></canvas>
+    </section>
+  </main>
+
+  <div class="popup hidden" id="reminderPopup">
+    <p>🔔 Hey! Stay focused! 🧠</p>
+    <button id="closePopup">Got it!</button>
+  </div>
+
+  <audio id="alarmSound" src="Alert.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
